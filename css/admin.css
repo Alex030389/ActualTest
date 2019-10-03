@@ -1,0 +1,338 @@
+/** --- Admin CSS --- */
+
+/** --- MAIN --- */
+body {
+    margin: 0px;
+    color: #000000;
+    font-family: Verdana;
+    font-size: 10px;
+    padding: 0px;
+}
+
+table{
+	
+}
+
+td {
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+H4
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: #F54C00;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+H5
+{
+    font-size: 10pt;
+    font-weight: bold;
+    color: #F54C00;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+/** --- FORM --- */
+form {
+	margin: 0px;
+}
+
+input,
+select,
+textarea{
+	color : #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-decoration : none;
+}
+
+input.checkbox{}
+
+input.button {
+	font-family :  Verdana,Tahoma;
+	font-size : 11px;
+}
+.button
+{
+	font-family :  Verdana,Tahoma;
+	font-size : 11px;
+}
+input.input_text_error,
+input.checkbox_error,
+select.select_error,
+textarea.textarea_error {
+	background-color : #FFD4A3;
+	/*border : 1px solid #000000;*/
+}
+
+/** --- LINK --- */
+a {
+    text-decoration: underline;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #645DB5;
+}
+A:link { text-decoration: underline; }
+A:visited { text-decoration: underline; }
+A:hover { text-decoration: underline; color: #AA0000;}
+
+a.menu_item:link,a.menu_item:visited {
+	font-weight : bold;
+	font-size:14px;
+}
+a.menu_item:hover {
+	font-weight : bold;
+}
+a.menu_footer:link,a.menu_footer:visited {
+	color : #959595;
+	font-family :  Verdana,Tahoma;
+	font-size : 11px;
+	font-weight:bold;
+    text-decoration:underline;
+}
+a.menu_footer:hover {
+	color : #959595;
+	font-family :  Verdana,Tahoma;
+	font-size : 11px;
+    font-weight:bold;
+	text-decoration:underline;
+}
+
+a.list_item:link, a.list_item:visited{
+	color : #FF2424;
+	font-family :  Verdana,Tahoma;
+	font-size : 11px;
+    text-decoration:underline;
+}
+a.list_item:hover {
+	color : #FF2424;
+	font-family :  Verdana,Tahoma;
+	font-size : 11px;
+	text-decoration:underline;
+}
+
+a.tbl_header:link, a.tbl_header:visited {
+}
+a.tbl_header:hover {
+
+}
+
+/** --- HEADER --- */
+td.header{
+	background-color :#6495ED;
+	color:#FFFFFF;
+	text-align:left;
+	height:30px; 
+}
+
+/** --- CONTENT --- */
+td.content{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/** --- MENU --- */
+tr.menu {
+
+}
+
+td.menu{
+	background-color : #EFEFEF;
+	font-family: Verdana;
+    font-size: 12px;
+    /*color: #645DB5;*/
+    font-weight : bold;
+	padding-left: 10px;
+}
+
+td.form {
+	background-color : #E1E1E1;
+}
+
+/** --- FOOTER--- */
+td.footer{
+	color: #959595;
+	height:50px; 
+    padding-left:10px;
+}
+
+td.line {
+	background-color : #F54C00;
+	height : 2px;
+}
+
+/** --- TABLE FORM ELEMENTS --- */
+table.form{
+	
+}
+
+td.td_field_label {
+	font-weight : bold;
+	text-align : right;
+	height:25px;
+	padding-right:10px;
+	vertical-align : top;
+}
+
+td.td_field_edit {
+	text-align : left;
+	vertical-align : top;
+}
+
+td.td_button{
+	text-align:right;
+	height:40px;
+}
+
+/** --- FILTER FORM ELEMENTS --- */
+table.filter{
+	
+}
+td.filter_label {
+	font-weight : bold;
+	text-align : right;
+	height:25px;
+	padding-right:10px;
+}
+td.filter_edit {
+}
+td.filter_button{
+	text-align:right;
+	height:40px;
+}
+
+
+/* --- LIST  ELEMENTS -- */
+table.tbl {
+    border : 1px solid #BABABA;
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 10pt;
+}
+
+TABLE.tbl TD, TH
+{
+    border-bottom : 1px solid #BABABA;
+    border-right : 1px solid #BABABA;
+	font-size:12px;
+}
+
+td.tbl_header {
+    background-color : #eae8f7;
+    border-bottom : 1px solid #BABABA;
+    border-right : 1px solid #BABABA;
+	font-weight : bold;
+}
+
+td.tbl_header_no_bold {
+    background-color : #eae8f7;
+    border-bottom : 1px solid #BABABA;
+    border-right : 1px solid #BABABA;
+}
+
+tr.tbl_row_even {
+	background-color : #D4D4D4;
+}
+tr.tbl_row_odd {
+	background-color : #F1F1F1;
+}
+tr.tbl_row_selected {
+	background-color : #FFFFBB;	
+}
+
+
+/* -- ERROR -- */
+.error {
+	color : #FF0000;
+	font-family :  Verdana,Tahoma;
+	font-size : 11px;
+	font-weight : bold;
+}
+
+/* -- STAR -- */
+.star {
+	color : #FF0000;
+	font-weight : bold;
+}
+
+/* -- PAGER -- */
+a.pager_link {
+	color:#FFFFFF;
+}
+
+
+._error {
+	background-color : #FFCCCC;
+}
+
+TABLE.admin_table
+{
+	border : 1px solid #BABABA;
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 10pt;
+}
+
+TABLE.admin_table TH
+{
+	background-color : #eae8f7;
+	border-bottom : 1px solid #BABABA;
+	border-right : 1px solid #BABABA;
+}
+
+TABLE.admin_table TD
+{
+	border-bottom : 1px solid #BABABA;
+	border-right : 1px solid #BABABA;
+}
+TABLE.admin_table TR:hover
+{
+	background:#f3f6ff;
+}
+TABLE.admin_form
+{
+	background-color : #BABABA;
+}
+
+TABLE.admin_form TD
+{
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 10pt;
+	background-color: #eae8f7;
+}
+
+table.cert {
+	border-bottom : #E8E8E9 0px solid;
+	font-size : 11px;
+	padding-bottom : 0px;
+	padding-left : 0px;
+	padding-right : 0px;
+	padding-top : 0px;
+	margin-bottom : 0px;
+	margin-left : 0px;
+	margin-right : 0px;
+	margin-top : 0px;
+}
+
+table.cert td {
+	border-bottom : #E8E8E9 0px solid;
+	font-size : 11px;
+	padding-bottom : 0px;
+	padding-left : 0px;
+	padding-right : 0px;
+	padding-top : 0px;
+	margin-bottom : 0px;
+	margin-left : 0px;
+	margin-right : 0px;
+	margin-top : 0px;
+}
+.error_message{color:red}
+table.admin_table td.small8, table.tbl td.small8, .small8 {font-size:8px;}
+table.admin_table td.small9, table.tbl td.small9, .small9 {font-size:9px;}

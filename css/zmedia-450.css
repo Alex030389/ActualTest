@@ -1,0 +1,129 @@
+@media (max-width: 450px) {
+  .box-mobile-nav {
+    background-color: #333333;
+  }
+
+  .mobile-nav {
+    position: absolute;
+    top: 0;
+    left: 28%;
+    right: auto;
+    padding: 50px 40px;
+    height: 100%;
+}
+
+  .hp_exams {
+    column-count: 1;
+  }
+
+  .guarantee_tag_2 a{
+    width: 276px;
+    background-size: cover;
+    height: 65px;
+  }
+
+  .box-register-form {
+    display: flex;
+    margin: 0 -30px 0 -30px;
+  }
+
+  .signup_container{
+    margin: 0 15px 30px;
+    padding: 0 10px 20px 15px;
+    /* border: 1px solid #e3e2e200; */
+
+    flex-grow: 1;
+    max-width: 510px;
+  }
+
+  .signup_container:first-child {
+    margin-bottom: -1px;
+  }
+
+  .slider-exam div {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .a_plus_certifications ul {
+    column-count: 1;
+  }
+
+  .banner_offer_ul {
+    column-count: 1;
+  }
+
+  .box_banner_offer_ul_lower_part {
+    flex-direction: column;
+  }
+
+  .banner_offer_ul_lower_part {
+    margin: 0 auto 20px;
+  }
+
+  .banner_offer_form_2_radio {
+    margin-left: 10px;
+    display: inline-block;
+  }
+
+  .unlimited_lifetime_price {
+    font-size: 14px;
+  }
+
+  .promocode_form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cvv {
+    width: 310px;
+  }
+
+  .cvv_box-img {
+    padding-top: 0;
+  }
+
+  .cvv_inner:first-child {
+    margin-bottom: 10px;
+  }
+
+  .cvv {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .hp_customers {
+    width: 100%;
+  }
+
+  .popup {
+    padding-bottom: 10px;
+  }
+
+  .popup_bg_second .popup {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hp_proposal_button_3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .sitemap ul {
+    column-count: 1;
+  }
+
+  .prom_label_img {
+    width: 100px;
+  }
+
+  .prom_label_img img {
+    top: -50px;
+  }
+
+  .prom_label {
+    margin-top: 20px;
+  }
+
+}

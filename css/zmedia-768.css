@@ -1,0 +1,297 @@
+@media (max-width: 768px) {
+  #header {
+    padding-bottom: 10px;
+  }
+
+  .first_nav {
+    display: none;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .box-mobile-nav {
+    top: 59px;
+  }
+
+
+  /* ===================================================== content */
+
+  .hp_title {
+    font-size: 50px;
+    line-height: 40px;
+    padding-top: 30px;
+  }
+
+  .hp_subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .hp_proposal_container p {
+    margin-top: 20px;
+  }
+
+  .hp_proposal_button {
+    width: 250px;
+  }
+
+  .hp_proposal_button {
+    font-size: 20px;
+  }
+
+  /* ============================================== search */
+
+  .form-title {
+    font-size: 18px;
+  }
+
+  #search {
+    font-size: 18px;
+  }
+
+  #submit {
+    background-size: 40%;
+  }
+
+  /* ===============================================  popular-exam*/
+  .popular-exam {
+    flex-direction: column;
+  }
+
+  .first_contour {
+    margin-bottom: 30px;
+  }
+
+  .second_contour .hp_exams {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .most_pop_certs {
+  }
+
+  .hp_customers {
+    width: calc(100% / 2 - 10px);
+  }
+
+  .contour_stripe {
+    width: 100%;
+  }
+
+  .buttonline {
+    padding-bottom: 30px;
+  }
+
+  .guarantee_tag_2 {
+    max-width: 480px;
+    bottom: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .shell.buy_unlim_access {
+    padding-bottom: 70px;
+  }
+
+  .standart_h2 {
+    font-size: 22px;
+  }
+
+  .price_block {
+    font-size: 18px;
+  }
+
+  .buttonblock p {
+    font-size: 20px;
+  }
+
+  .button {
+    font-size: 20px
+  }
+
+  .button.buy_now {
+    padding: 5px 40px;
+  }
+
+  .vendors-container {
+    columns: 2;
+  }
+
+  .box-register-form {
+    flex-direction: column;
+  }
+
+  .exam_engine_ul {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .exam_engine_img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .license_mid_container {
+    width: 100%;
+    padding-right: 30px;
+  }
+
+  .container_product {
+    flex-direction: column;
+  }
+
+  .product_image {
+    padding-top: 0;
+  }
+
+  .e_title span {
+    font-size: 30px;
+  }
+
+  .e_title {
+    font-size: 20px;
+  }
+
+  .slide_reviews {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .a_plus_certifications ul {
+    column-count: 2;
+  }
+
+  .vndrtitle,
+  .vndrtitlef {
+    background: #1485e5;
+    color: #fff;
+    font-family: 'roboto_condensedlight', Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+  }
+
+  .shell.buy_unlim_access {
+    /* padding-bottom: 20px; */
+  }
+
+  .offer_inner_container_2 {
+    flex-direction: column;
+  }
+
+  .second_part_banner_offer {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .shell.buy_unlim_access.welcome_shell {
+    padding-bottom: 5px !important;
+  }
+
+  .ee_table_header td {
+    font-size: 18px;
+  }
+
+  .box_notific_ma_profile>div {
+    width: 100%;
+  }
+
+  .ma_profile_inner {
+    justify-content: flex-start;
+  }
+
+  .ma_profile_input_box {
+    margin-left: 0;
+  }
+
+  .box_notific_ma_profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ma_button {
+    margin-top: 30px;
+  }
+
+  .filter_dropdown_fix {
+    width: calc(100% / 2 - 10px);
+  }
+
+  .box_common_table_container {
+    margin: 0 -15px;
+  }
+
+  .checkout_left_wrapper {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .cvv {
+    width: 500px;
+  }
+
+  .cvv_inner {
+    flex-direction: column-reverse;
+  }
+
+  .checkout_container_box_paynow {
+    flex-direction: column;
+  }
+
+  .paynow_option2_right_container {
+    max-width: 100%;
+    margin-left: 20px;
+  }
+
+  .paynow_option2_right_container .standart_h3 {
+    margin-top: 0px;
+  }
+
+  .checkout_container_paynow {
+    max-width: 576px;
+  }
+
+  .sitemap ul {
+    column-count: 2;
+  }
+
+  .a_plus_certifications_2 ul {
+    column-count: 3;
+  }
+
+  .prom_by_now_block {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .license_h3_prom {
+    margin-top: 0;
+  }
+
+  .prom_btn_200 {
+    max-width: 200px;
+  }
+
+  .prom_label_title {
+    font-size: 25px;
+  }
+
+  .upgrade_title p {
+    display: block;
+  }
+
+
+
+
+  /* show-hide */
+  .show_768 {
+    display: block;
+  }
+
+  .hide_768 {
+    display: none;
+  }
+
+}

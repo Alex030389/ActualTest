@@ -1,0 +1,9 @@
+@media (max-width: 340px) {
+  .mobile-nav {
+    padding-top: 10px;
+  }
+
+  .mobile-nav .reset-list li {
+    padding-bottom: 9px;
+  }
+}

@@ -1,0 +1,499 @@
+/* ================================================= content */
+@media (max-width: 576px) {
+
+    /* ============================================== search */
+
+    .shell.not_hp_search {
+      padding-top: 20px;
+    }
+
+    #search {
+      font-size: 15px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+
+    #submit {
+      background-size: 30%;
+    }
+
+  .hp_image_big {
+    background: #d0ccc5 url(../new_design_img/hp_image_big.jpg) no-repeat -100px 0;
+    padding-bottom: 20px;
+  }
+
+  .hp_image_big::after {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .hp_image_big .container {
+    align-items: flex-start;
+  }
+
+  .hp_title {
+    font-size: 35px;
+    line-height: 30px;
+    padding-top: 30px;
+  }
+
+  .hp_subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .hp_proposal_container p {
+    margin-top: 18px;
+  }
+
+  .hp_proposal_button {
+    font-size: 18px;
+  }
+
+
+  /* ============================================== search */
+  .search {
+    /* padding: 15px 0; */
+  }
+
+  .search .container {
+    flex-direction: column;
+  }
+
+  .form-title {
+    /* margin-bottom: 10px; */
+    /* justify-content: flex-start; */
+    display: none;
+  }
+
+  .form-wrapper {
+    width: 100%;
+  }
+
+  /* =============================================== popular-exam */
+  .hp_exams_block_title {
+    font-family: 'roboto_condensedregular', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    white-space: normal;
+  }
+
+  /* ================================================== include_buy_now_block */
+  .box-lifetime_offer_ul-price_block {
+    flex-direction: column;
+  }
+
+  .lifetime_offer_ul {
+    padding: 0 0 0 20px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .price_block {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+
+  .button.buy_now {
+    padding: 5px 30px;
+  }
+
+  .container.all_exams
+  /* .container.faq_block */
+   {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .vendors-container {
+    columns: 1;
+  }
+
+  .standart_block {
+    padding: 0 15px 15px 15px;
+  }
+
+  .signup_p {
+    width: 100%;
+  }
+
+  .story.faq_answer_block ul {
+    margin-left: 0px !important;
+  }
+
+  .buttonline {
+    margin-bottom: 30px;
+  }
+
+  .license_top_container {
+    width: 100%;
+  }
+
+  .first_info_block li,
+  .second-info-block li  {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px !important;
+  }
+
+  .first_info_block label,
+  .second-info-block label {
+    margin-bottom: 5px;
+  }
+
+  .button_li label {
+    margin-bottom: 10px;
+  }
+
+  .button_li button {
+  }
+
+  .license_mid_container {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+
+  .second-info-block__security-code div {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    width: 100% !important;
+  }
+
+  #security_code {
+    margin-right: 0;
+  }
+
+  .second-info-block__security-code img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container_product {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+  }
+
+  .container_product._padding-bottom_40 {
+    padding-bottom: 40px;
+  }
+
+  .vendor_certifications {
+    width: 90%;
+  }
+
+  .product_image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .exam_guarantee {
+    bottom: -40px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .e_list {
+    font-size: 18px;
+  }
+
+  .slick-btn {
+    width: 30px;
+    background-size: 50%;
+  }
+
+  .slide_reviews {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .container_slide_reviews {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+  }
+
+  .vendor_box_contour {
+    flex-direction: column;
+  }
+
+  .vendor_box_contour .vendor_contour:first-child {
+    margin-bottom: 30px;
+  }
+
+  .vendor_block {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .acc_overview {
+    margin: 0 -15px;
+  }
+
+  .banner_container {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .banner_container p {
+      font-size: 25px;
+      margin: 0 0 20px 0;
+      text-align: center;
+  }
+
+  .banner_container p span {
+    font-size: 20px;
+  }
+
+  .banner_offer {
+    padding: 0;
+  }
+
+  .banner_offer_form {
+    flex-direction: column;
+  }
+
+  .banner_offer_form a {
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .offer_button {
+    margin-right: 0;
+    padding: 5px 20px;
+  }
+
+  .unlimited_lifetime_price {
+    padding-right: 10px;
+  }
+
+  .offer_inner_container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .offer_inner_container img {
+    margin: 0 auto 20px;
+  }
+
+  .box_banner_offer_ul_lower_part {
+    width: 100%;
+  }
+
+  .offer_inner_container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .upgrade_offer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ma_profile_inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ma_button {
+    margin-top: 10px;
+    margin-bottoM: 10px;
+  }
+
+  .filter_dropdown_fix {
+    width: 100%;
+  }
+
+  .container_checkout_stages {
+    flex-direction: column;
+  }
+
+  .checkout_stages {
+    max-width: 310px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .table_checkout td:first-child {
+    padding-left: 10px;
+  }
+
+  .standar_title_checkout {
+    padding-left: 10px;
+  }
+
+  .checkout_innner_container_pers_inf {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .checkout_input.first_name,
+  .checkout_input.last_name {
+    width: 100%;
+  }
+
+  .checkout_input_50 {
+    width: 100%;
+  }
+
+  .cvv {
+    width: 430px;
+  }
+
+  .cvv_inner p {
+    font-size: 12px !important;
+  }
+
+  .popup_stripe p {
+    font-size: 20px;
+  }
+
+  .discount_subtitle {
+    font-size: 20px;
+  }
+
+  .popup {
+    margin-top: 50px;
+  }
+
+  .discount_title {
+    font-size: 20px;
+  }
+
+  .popup_discount_img {
+    display: none;
+  }
+
+  .popup_discount_form {
+    width: 100%;
+  }
+
+  .popup_download_box_img {
+    display: none;
+  }
+
+  .download_popup_title {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .sample {
+    flex-direction: column;
+  }
+
+  .sample_container .standart_h3 {
+    margin-top: 15px;
+  }
+
+  .paynow_notification {
+    padding: 0 15px;
+  }
+
+  .paynow_button_option1 {
+    font-size: 16px;
+  }
+
+  .paynow_form_option1  {
+    flex-direction: column;
+  }
+
+  .paynow_form_option1_label_input {
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+
+  .paynow_form_option1_label_input input {
+    width: 100%;
+  }
+
+  .paynow_button_option1 {
+    align-self: flex-end;
+  }
+
+  .a_plus_certifications_2 ul {
+    column-count: 2;
+  }
+
+  .button_request_exam {
+    margin-bottom: 20px;
+  }
+
+  .comptia_fl a {
+    width: 100px;
+    flex-shrink: 0;
+  }
+
+  .promotion_container {
+    flex-direction: column;
+  }
+
+  .prommotion_text {
+    margin: 0 0 20px;
+  }
+
+  .pre_title {
+    font-size: 18px;
+  }
+
+  .prom_title {
+    font-size: 28px;
+  }
+
+  .prom_subtitle {
+    font-size: 20px;
+  }
+
+  .prommotion_wrap_img {
+    width: 110px;
+  }
+
+  .promotion_container_shell {
+    /* margin-bottom: 30px; */
+  }
+
+  .promotion_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+  .prom_label {
+    margin: 38px 0 38px 0;
+    padding: 15px 20px;
+}
+
+  .prom_label_title {
+    font-size: 20px;
+  }
+
+  .comptia_plus_exams .basic_ul,
+  .comptia_plus_exams .second_basic_ul {
+    padding: 0px 10px 15px 15px;
+  }
+
+  .upgrade_title p {
+    display: block;
+    text-align: left;
+  }
+
+  .upgrade_title p:first-child {
+    margin-bottom: 10px;
+  }
+
+  .banner_container form {
+    width: 100%;
+  }
+
+  .upgrade_radio_table td:not(:last-child) {
+    padding-right: 10px;
+  }
+
+
+
+}

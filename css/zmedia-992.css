@@ -1,0 +1,65 @@
+@media (max-width: 992px) {
+
+  .hamburger {
+    display: inline-block;
+  }
+
+  .first_nav ul {
+    display: none;
+  }
+
+  .second_nav ul {
+    display: none;
+  }
+
+  .license_top_container {
+    margin: 5px;
+    padding: 0 5px 10px 5px;
+    border: 1px solid #e3e2e2;
+    width: calc(100% / 2 - 10px);
+  }
+
+  .license_top_container.display_b_992 {
+    display: block;
+  }
+
+  .license_right_container.display_n_992 {
+    display: none;
+  }
+
+  .license_mid_container {
+    width: 100%;
+    padding-right: 20%;
+  }
+
+  .exam_guarantee {
+    width: 200px;
+  }
+
+  .pre_title {
+    font-size: 20px;
+  }
+
+  .prom_title {
+    font-size: 38px;
+  }
+
+  .prom_subtitle {
+    font-size: 30px;
+  }
+
+
+.container_row {
+  flex-wrap: wrap;
+}
+
+.dropdown_bg_stripe {
+  display: none;
+}
+
+
+
+
+
+
+}
