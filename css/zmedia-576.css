@@ -1,21 +1,21 @@
 /* ================================================= content */
 @media (max-width: 576px) {
 
-    /* ============================================== search */
+  /* ============================================== search */
 
-    .shell.not_hp_search {
-      padding-top: 20px;
-    }
+  .shell.not_hp_search {
+    padding-top: 20px;
+  }
 
-    #search {
-      font-size: 15px;
-      padding-top: 4px;
-      padding-bottom: 4px;
-    }
+  #search {
+    font-size: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
 
-    #submit {
-      background-size: 30%;
-    }
+  #submit {
+    background-size: 30%;
+  }
 
   .hp_image_big {
     background: #d0ccc5 url(../new_design_img/hp_image_big.jpg) no-repeat -100px 0;
@@ -102,8 +102,9 @@
   }
 
   .container.all_exams
+
   /* .container.faq_block */
-   {
+    {
     padding-left: 0;
     padding-right: 0;
   }
@@ -133,7 +134,7 @@
   }
 
   .first_info_block li,
-  .second-info-block li  {
+  .second-info-block li {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px !important;
@@ -148,8 +149,7 @@
     margin-bottom: 10px;
   }
 
-  .button_li button {
-  }
+  .button_li button {}
 
   .license_mid_container {
     padding-left: 10px;
@@ -238,9 +238,9 @@
   }
 
   .banner_container p {
-      font-size: 25px;
-      margin: 0 0 20px 0;
-      text-align: center;
+    font-size: 25px;
+    margin: 0 0 20px 0;
+    text-align: center;
   }
 
   .banner_container p span {
@@ -396,7 +396,7 @@
     font-size: 16px;
   }
 
-  .paynow_form_option1  {
+  .paynow_form_option1 {
     flex-direction: column;
   }
 
@@ -461,12 +461,12 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-}
+  }
 
   .prom_label {
     margin: 38px 0 38px 0;
     padding: 15px 20px;
-}
+  }
 
   .prom_label_title {
     font-size: 20px;
@@ -492,6 +492,10 @@
 
   .upgrade_radio_table td:not(:last-child) {
     padding-right: 10px;
+  }
+
+  .paynow_button_option1 {
+    margin: 0 auto;
   }
 
 

@@ -54,11 +54,11 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-  }
+}
 
-  select::-ms-expand {
+select::-ms-expand {
     display: none;
-  }
+}
 
 .shell {
     max-width: 1130px;
@@ -674,12 +674,11 @@ select {
 }
 
 .hp_exams {
-    column-count: 2;
     margin-right: auto;
 }
 
-.hp_exams a:hover {
-    opacity: 0.8;
+.hp_exams ul {
+    column-count: 2;
 }
 
 .hp_exams ul li {
@@ -688,6 +687,15 @@ select {
     line-height: 18px;
     color: #333;
     padding-bottom: 10px;
+    display: inline-block;
+}
+
+.hp_exams ul li a {
+    display: inline-block;
+}
+
+.hp_exams a:hover {
+    opacity: 0.8;
 }
 
 .hp_exams ul li strong {
@@ -816,8 +824,7 @@ select {
     margin-right: 40px;
 }
 
-.product_description_block {
-}
+.product_description_block {}
 
 .e_title {
     font-family: 'roboto_condensedregular', Arial, sans-serif;
@@ -1181,12 +1188,13 @@ label[for="billing_termsagree"] {
     padding: 3px 30px;
     font-size: 20px;
 }
+
 /*~~~~~~~~~~~~~~~~~~~~~~SLIDER~~~~~~~~~~~~~~~~~~~~~~*/
 .wrap-slider-exam {
     padding-top: 30px;
 }
 
-.slider-exam  {
+.slider-exam {
     position: relative;
     /* border: 1px solid grey; */
 }
@@ -1260,6 +1268,36 @@ label[for="billing_termsagree"] {
 
 .shell.slider {
     overflow: hidden;
+}
+
+.slider-exam__item {
+    position: relative;
+}
+
+.slider-exam__label {
+    position: absolute;
+    top: 9%;
+    right: 10px;
+    font-size: 12px;
+    color: #FFB200;
+}
+
+@media (max-width: 780px) {
+    .slider-exam__label {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 590px) {
+    .slider-exam__label {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    .slider-exam__label {
+        font-size: 6px;
+    }
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~PRODUCT REVIEWS~~~~~~~~~~~~~~~~~~~~~~*/
@@ -1361,8 +1399,7 @@ label[for="billing_termsagree"] {
     padding-bottom: 20px;
 }
 
-.a_plus_certifications {
-}
+.a_plus_certifications {}
 
 .a_plus_certifications ul {
     list-style: none;
@@ -1370,8 +1407,7 @@ label[for="billing_termsagree"] {
     column-gap: 30px;
 }
 
-.a_plus_certifications ul li {
-}
+.a_plus_certifications ul li {}
 
 .a_plus_certifications ul a,
 .a_plus_certifications_2 ul a {
@@ -1385,9 +1421,7 @@ label[for="billing_termsagree"] {
     color: #2e9fff;
 }
 
-.a_plus_certifications_2 {
-
-}
+.a_plus_certifications_2 {}
 
 .a_plus_certifications_2 ul {
     column-count: 4;
@@ -1528,8 +1562,7 @@ label[for="billing_termsagree"] {
     /* margin-bottom: 50px; */
 }
 
-.pr_wrapper:first-child {
-}
+.pr_wrapper:first-child {}
 
 .pr_width {
     border: none;
@@ -1574,8 +1607,7 @@ label[for="billing_termsagree"] {
     align-self: flex-start;
 }
 
-.sample p {
-}
+.sample p {}
 
 .pdf_engine_links_container {
     float: right;
@@ -1826,9 +1858,7 @@ label[for="billing_termsagree"] {
     border-spacing: 0;
 }
 
-.standart_block .ee_table tr {
-
-}
+.standart_block .ee_table tr {}
 
 .standart_block .ee_table td {
     padding: 10px;
@@ -1891,8 +1921,7 @@ label[for="billing_termsagree"] {
     opacity: 1;
 }
 
-.invoices_table tr {
-}
+.invoices_table tr {}
 
 .invoices_table td {
     padding: 5px 5px;
@@ -1922,7 +1951,7 @@ label[for="billing_termsagree"] {
 
 .vendors_alpabet_container {}
 
-.vendors_alpabet_container:first-child > ul {
+.vendors_alpabet_container:first-child>ul {
     margin-top: 0;
     padding-top: 0;
 }
@@ -2111,8 +2140,7 @@ label[for="billing_termsagree"] {
     /* Removes Default Firefox style*/
 }
 
-.second-info-block__textarea {
-}
+.second-info-block__textarea {}
 
 .second-info-block__textarea label {
     width: 260px;
@@ -2192,9 +2220,7 @@ label[for="billing_termsagree"] {
     margin-right: 30px;
 }
 
-.prommotion_wrap_img {
-
-}
+.prommotion_wrap_img {}
 
 .pre_title {
     font-size: 30px;
@@ -2225,7 +2251,7 @@ label[for="billing_termsagree"] {
     align-content: center;
 }
 
-.prom_by_now_block > * {
+.prom_by_now_block>* {
     margin-bottom: 20px;
 }
 
@@ -2406,9 +2432,7 @@ label[for="billing_termsagree"] {
     width: 80%;
 }
 
-.promotion_label {
-
-}
+.promotion_label {}
 
 .promotion_label .descr {
     font-size: 14px;
@@ -2490,7 +2514,7 @@ label[for="billing_termsagree"] {
     display: flex;
 }
 
-.box_notific_ma_profile > div {
+.box_notific_ma_profile>div {
     width: calc(100% / 2 - 15px);
 }
 
@@ -2518,8 +2542,7 @@ label[for="billing_termsagree"] {
     color: #444;
 }
 
-.current_email span {
-}
+.current_email span {}
 
 .current_email span:first-child {
     white-space: nowrap;
@@ -2665,9 +2688,7 @@ label[for="billing_termsagree"] {
     text-align: right;
 }
 
-.checkout_remove {
-
-}
+.checkout_remove {}
 
 .remove {
     font-family: 'roboto_condensedbold', Arial, sans-serif;
@@ -2692,8 +2713,7 @@ label[for="billing_termsagree"] {
     display: inline-block;
 }
 
-.box_prom_input_button {
-}
+.box_prom_input_button {}
 
 .promocode_input {
     border: 1px #c0d2e0 solid;
@@ -2773,7 +2793,7 @@ label[for="billing_termsagree"] {
     /* Removes Default Firefox style*/
 }
 
-.box_personal_inf > * {
+.box_personal_inf>* {
     margin: 0 10px 10px 0;
 }
 
@@ -2849,9 +2869,7 @@ label[for="billing_termsagree"] {
     margin-bottom: 20px;
 }
 
-.cvv p {
-
-}
+.cvv p {}
 
 .cvv_box-img {
     padding-top: 15px;
@@ -2981,13 +2999,16 @@ label[for="billing_termsagree"] {
     width: 89%;
     margin: 25px auto;
     padding-bottom: 10px;
-
 }
 
 .paynow_wrapper {
     float: left;
     width: 100%;
     margin-right: 1%;
+}
+
+.paynow_box {
+    padding-bottom: 35px;
 }
 
 .paynow_p {
@@ -3039,17 +3060,11 @@ label[for="billing_termsagree"] {
 
 .paynow_button_option1 {
     padding: 7px 30px;
-    /* align-self: flex-end; */
     font-size: 20px;
 }
 
-.paynow_button_option1_right {
-    margin-left: auto;
-    margin-right: 0;
-}
-
 .paynow_cards {
-    width: 98px;
+    max-width: 300px;
 }
 
 .paynow_option2_right_container_img {
@@ -3077,7 +3092,6 @@ label[for="billing_termsagree"] {
     width: 63%;
     margin: 25px 0 25px 5.5%;
     padding-bottom: 10px;
-
 }
 
 .paynow_option2_right_container {
@@ -3262,9 +3276,7 @@ label[for="billing_termsagree"] {
     width: 100%;
 }
 
-.acc_table tr {
-
-}
+.acc_table tr {}
 
 .acc_table tr:nth-child(even) {
     background-color: #eef7ff;
@@ -3321,8 +3333,7 @@ label[for="billing_termsagree"] {
     padding-right: 15px;
 }
 
-.acc_inner_container {
-}
+.acc_inner_container {}
 
 .exam_table {
     border-collapse: collapse;
@@ -3356,11 +3367,9 @@ label[for="billing_termsagree"] {
     min-width: 160px;
 }
 
-.exam_pdf {
-}
+.exam_pdf {}
 
-.exam_engine {
-}
+.exam_engine {}
 
 .exam_pdf a,
 .exam_engine a {
@@ -3778,9 +3787,7 @@ label[for="billing_termsagree"] {
     cursor: pointer;
 }
 
-.popup_inner_container {
-
-}
+.popup_inner_container {}
 
 .popup_inner_container_start {
     padding: 10px 20px 0;
@@ -3823,8 +3830,7 @@ label[for="billing_termsagree"] {
     justify-content: space-between;
 }
 
-.popup_discount_form {
-}
+.popup_discount_form {}
 
 .popup_discount_enter_address {
     margin: 0px;
@@ -4134,8 +4140,7 @@ label[for="billing_termsagree"] {
     padding: 0px;
 }
 
-.banner_h2 {
-}
+.banner_h2 {}
 
 .lifetime_blue_stripe {
     margin-top: 20px;
@@ -4214,8 +4219,7 @@ label[for="billing_termsagree"] {
     flex-shrink: 0;
 }
 
-.banner_offer_popular_exams {
-}
+.banner_offer_popular_exams {}
 
 .offer_inner_container p {
     font-family: 'roboto_condensedbold', Arial, sans-serif;
@@ -4230,8 +4234,7 @@ label[for="billing_termsagree"] {
     column-gap: 20px;
 }
 
-.banner_offer_ul li {
-}
+.banner_offer_ul li {}
 
 .banner_offer_ul li a {
     font-family: 'roboto_condensedregular', Arial, sans-serif;
@@ -4311,7 +4314,7 @@ label[for="billing_termsagree"] {
 }
 
 .upgrade_radio label {
-    font-family: roboto_condensedbold,Arial,sans-serif;
+    font-family: roboto_condensedbold, Arial, sans-serif;
     position: relative;
     padding-left: 30px;
 }
@@ -4337,14 +4340,12 @@ label[for="billing_termsagree"] {
     border-radius: 50%;
 }
 
-.upgrade_radio input:checked + span:after {
+.upgrade_radio input:checked+span:after {
     background-color: #1485e5;
 }
 
 
-.banner_offer_form_2 {
-
-}
+.banner_offer_form_2 {}
 
 .banner_offer_form_2_ul {
     margin-bottom: 20px;
@@ -4439,7 +4440,7 @@ label[for="billing_termsagree"] {
     padding: 0px 20px 40px 40px;
 }
 
-.comptia_plus_exams .second_basic_ul  li {
+.comptia_plus_exams .second_basic_ul li {
     display: flex;
 }
 
@@ -4544,8 +4545,7 @@ label[for="billing_termsagree"] {
     text-align: left;
 }
 
-.quickpay_table td {
-}
+.quickpay_table td {}
 
 .ordprice {
     margin-bottom: 20px;
@@ -4696,4 +4696,4 @@ label[for="billing_termsagree"] {
     margin: 0;
     border: none;
     overflow: hidden;
-  }
+}
