@@ -2,12 +2,7 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     cleancss = require('gulp-clean-css'),
-    autoprefixer = require('gulp-autoprefixer'),
-    del = require('del');
-
-// gulp.task('clean', function () {
-//   return del(['dist/css/', 'dist/js/']);
-// });
+    autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('css:libs', function () {
   return gulp.src([
@@ -25,11 +20,11 @@ gulp.task('css:build', function () {
     'css/fonts.css',
     'css/common.css',
     'css/main.css',
-    'css/zmedia-992.css',
-    'css/zmedia-768.css',
-    'css/zmedia-576.css',
-    'css/zmedia-450.css',
-    'css/zmedia_320.css',
+    'css/media-992.css',
+    'css/media-768.css',
+    'css/media-576.css',
+    'css/media-450.css',
+    'css/media_320.css',
   ])
     .pipe(concat('main.min.css'))
     .pipe(autoprefixer(['last 15 versions']))

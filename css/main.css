@@ -1407,7 +1407,9 @@ label[for="billing_termsagree"] {
     column-gap: 30px;
 }
 
-.a_plus_certifications ul li {}
+.a_plus_certifications ul li {
+    margin-bottom: 5px;
+}
 
 .a_plus_certifications ul a,
 .a_plus_certifications_2 ul a {
@@ -1427,6 +1429,10 @@ label[for="billing_termsagree"] {
     column-count: 4;
     list-style: none;
     column-gap: 30px;
+}
+
+.a_plus_certifications_2 ul li {
+    margin-bottom: 5px;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~VENDOR-PAGE~~~~~~~~~~~~~~~~~~~~~~*/

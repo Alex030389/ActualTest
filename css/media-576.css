@@ -413,8 +413,18 @@
     align-self: flex-end;
   }
 
+  .container + .a_plus_certifications ul,
+  .container + .a_plus_certifications_2 ul {
+    padding-top: 10px;
+  }
+
   .a_plus_certifications_2 ul {
     column-count: 2;
+  }
+
+  .a_plus_certifications ul li,
+  .a_plus_certifications_2 ul li {
+    margin-bottom: 8px;
   }
 
   .button_request_exam {
