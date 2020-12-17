@@ -12,7 +12,7 @@ gulp.task('css:libs', function () {
   ])
     .pipe(concat('libs.min.css'))
     .pipe(cleancss())
-    .pipe(gulp.dest('s:/host01/design/css_min/'))
+    .pipe(gulp.dest('./dist/css_min/'))
 });
 
 gulp.task('css:build', function () {
@@ -29,7 +29,7 @@ gulp.task('css:build', function () {
     .pipe(concat('main.min.css'))
     .pipe(autoprefixer(['last 15 versions']))
     .pipe(cleancss())
-    .pipe(gulp.dest('s:/host01/design/css_min/'))
+    .pipe(gulp.dest('./dist/css_min/'))
 });
 
 gulp.task('js:libs', function () {
@@ -40,7 +40,7 @@ gulp.task('js:libs', function () {
     ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('s:/host01/design/js_min/'))
+    .pipe(gulp.dest('./dist/js_min/'))
 });
 
 gulp.task('js:build', function () {
@@ -50,7 +50,7 @@ gulp.task('js:build', function () {
     ])
     .pipe(concat('main.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('s:/host01/design/js_min/'))
+    .pipe(gulp.dest('./dist/js_min/'))
 });
 
 gulp.task('watch', function () {

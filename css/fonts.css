@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'roboto_condensedregular';
-    src: url(../fonts/robotocondensed-regular.woff),
+    src: url(../fonts/robotocondensed-regular.woff2),
          url(../fonts/robotocondensed-regular.woff);
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'roboto_condensedlight';
-  src: url(../fonts/robotocondensed-light.woff),
+  src: url(../fonts/robotocondensed-light.woff2),
        url(../fonts/robotocondensed-light.woff);
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'roboto_condensedbold';
-  src: url(../fonts/robotocondensed-bold.woff),
+  src: url(../fonts/robotocondensed-bold.woff2),
        url(../fonts/robotocondensed-bold.woff);
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'robotoitalic';
-  src: url(../fonts/roboto-italic.woff),
+  src: url(../fonts/roboto-italic.woff2),
        url(../fonts/roboto-italic.woff);
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: 'droid_sansregular';
-  src: url(../fonts/droidsans.woff),
+  src: url(../fonts/droidsans.woff2),
        url(../fonts/droidsans.woff);
   font-style: normal;
   font-display: swap;
@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: 'droid_sansbold';
-  src: url(../fonts/droidsans-bold.woff),
+  src: url(../fonts/droidsans-bold.woff2),
        url(../fonts/droidsans-bold.woff);
   font-style: normal;
   font-display: swap;
@@ -48,7 +48,7 @@
 
 @font-face {
   font-family: 'robotobold';
-  src: url(../fonts/roboto-bold.woff),
+  src: url(../fonts/roboto-bold.woff2),
        url(../fonts/roboto-bold.woff);
   font-style: normal;
   font-display: swap;
@@ -56,7 +56,7 @@
 
 @font-face {
   font-family: 'robotoblack';
-  src: url(../fonts/roboto-black.woff),
+  src: url(../fonts/roboto-black.woff2),
        url(../fonts/roboto-black.woff);
   font-style: normal;
   font-display: swap;
@@ -64,7 +64,7 @@
 
 @font-face {
   font-family: 'robotoregular';
-  src: url(../fonts/roboto-regular.woff),
+  src: url(../fonts/roboto-regular.woff2),
        url(../fonts/roboto-regular.woff);
   font-style: normal;
   font-display: swap;
@@ -72,7 +72,7 @@
 
 @font-face {
   font-family: 'robotothin';
-  src: url(../fonts/roboto-thin.woff),
+  src: url(../fonts/roboto-thin.woff2),
        url(../fonts/roboto-thin.woff);
   font-style: normal;
   font-display: swap;
@@ -80,7 +80,7 @@
 
 @font-face {
   font-family: 'robotomedium';
-  src: url(../fonts/roboto-medium.woff),
+  src: url(../fonts/roboto-medium.woff2),
        url(../fonts/roboto-medium.woff);
   font-style: normal;
   font-display: swap;
@@ -88,7 +88,7 @@
 
 @font-face {
   font-family: 'robotolight';
-  src: url(../fonts/roboto-light.woff),
+  src: url(../fonts/roboto-light.woff2),
        url(../fonts/roboto-light.woff);
   font-style: normal;
   font-display: swap;

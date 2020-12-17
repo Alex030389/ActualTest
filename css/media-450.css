@@ -3,6 +3,10 @@
     background-color: #333333;
   }
 
+  .option1_button {
+    margin-left: auto;
+  }
+
   .mobile-nav {
     position: absolute;
     top: 0;
